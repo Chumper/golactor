@@ -1,0 +1,34 @@
+namespace messages;
+
+rpc_service ActorService {
+  Send(ActorMessage):Ack(streaming: "client");
+  // Add(AddRequest):AddResponse(streaming: "none");
+  // LastAdded(LastAddedRequest):LastAddedResponse (streaming: "none");
+}
+
+table ActorMessage {
+  
+  message:byte;
+}
+
+table Ack{}
+
+// Defines the first phase in the life cycle of an actor
+table Started {}
+
+// Indicates that the actor is currently restarting
+table Restarting {}
+
+// Indicates that the actor is about to stop
+table Stopping {}
+
+// Indicates that the actor has been stopped
+table Stopped {}
+
+// Defines the address of an actor. It contains the host and the path of the actor within the system
+table ActorRef {
+  // The host that the actor resides on
+  host:string;
+  // The path of the actor within in the system
+  path:string;
+}
