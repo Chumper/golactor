@@ -23,7 +23,7 @@ require (
 	github.com/tv42/httpunix v0.0.0-20150427012821-b75d8614f926 // indirect
 	go.uber.org/atomic v1.3.2 // indirect
 	go.uber.org/multierr v1.1.0 // indirect
-	go.uber.org/zap v1.9.1
+	go.uber.org/zap v1.13.0
 	golang.org/x/net v0.0.0-20190320064053-1272bf9dcd53
 	google.golang.org/grpc v1.19.0
 )
