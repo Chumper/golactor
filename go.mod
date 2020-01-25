@@ -7,7 +7,7 @@ require (
 	github.com/DataDog/datadog-go v0.0.0-20190323183505-07c7c350327b // indirect
 	github.com/circonus-labs/circonus-gometrics v2.2.6+incompatible // indirect
 	github.com/circonus-labs/circonusllhist v0.1.3 // indirect
-	github.com/google/flatbuffers v1.10.0
+	github.com/google/flatbuffers v1.11.0
 	github.com/hashicorp/go-memdb v1.0.0 // indirect
 	github.com/hashicorp/go-retryablehttp v0.5.3 // indirect
 	github.com/hashicorp/go-version v1.1.0 // indirect
