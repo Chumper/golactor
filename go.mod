@@ -4,7 +4,7 @@ go 1.12
 
 require (
 	github.com/AsynkronIT/protoactor-go v0.0.0-20210125121722-bab29b9c335d
-	github.com/google/flatbuffers v1.12.0
+	github.com/google/flatbuffers v1.12.1
 	github.com/hashicorp/go-memdb v1.0.0 // indirect
 	github.com/hashicorp/go-version v1.1.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
