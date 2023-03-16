@@ -14,6 +14,6 @@ require (
 	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/mitchellh/hashstructure v1.0.0 // indirect
 	go.uber.org/zap v1.16.0
-	golang.org/x/net v0.0.0-20191116160921-f9c825593386
+	golang.org/x/net v0.7.0
 	google.golang.org/grpc v1.34.0
 )
