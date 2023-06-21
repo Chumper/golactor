@@ -4,7 +4,7 @@ go 1.12
 
 require (
 	github.com/AsynkronIT/protoactor-go v0.0.0-20210125121722-bab29b9c335d
-	github.com/google/flatbuffers v1.12.0
+	github.com/google/flatbuffers v2.0.8+incompatible
 	github.com/hashicorp/go-memdb v1.0.0 // indirect
 	github.com/hashicorp/go-version v1.1.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
@@ -14,6 +14,6 @@ require (
 	github.com/mitchellh/copystructure v1.0.0 // indirect
 	github.com/mitchellh/hashstructure v1.0.0 // indirect
 	go.uber.org/zap v1.16.0
-	golang.org/x/net v0.0.0-20191116160921-f9c825593386
-	google.golang.org/grpc v1.34.0
+	golang.org/x/net v0.9.0
+	google.golang.org/grpc v1.56.1
 )
